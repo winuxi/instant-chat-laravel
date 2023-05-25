@@ -27,8 +27,8 @@ Demo web-chat app using Ably Broadcaster+Echo based on laravel.
 ```
 4. Install dependencies.
 ```
-  composer install
-  npm install
+  touch database/database.sqlite // On linux
+  New-Item database\\database.sqlite -type file // On windows poweshell
 ```
 5. Generate application encryption key.
 ```
@@ -36,8 +36,8 @@ Demo web-chat app using Ably Broadcaster+Echo based on laravel.
 ```
 6. Create simple sqlite db file.
 ```
-  touch database/database.sqlite // On linux
-  New-Item database\\database.sqlite -type file // On windows poweshell
+  composer install
+  npm install
 ```
 7. Run all of db migrations.
 ```
