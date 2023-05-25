@@ -18,7 +18,7 @@ Demo web-chat app using Ably Broadcaster+Echo based on laravel.
 
 1. Clone the repository.
 ```
-  git clone https://github.com/ably-labs/laravel-broadcast-app
+  git clone https://github.com/winuxi/instant-chat-laravel
 ```
 2. Create the `.env` file in the project root. Copy contents from `.env.example` into `.env`.
 3. Set [ABLY_KEY](https://faqs.ably.com/setting-up-and-managing-api-keys) in .env file .
